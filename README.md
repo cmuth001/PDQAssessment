@@ -13,7 +13,10 @@ The API will return a random PDQ.com employee name with his or her favorite beer
   1. > npm install
   2. > node index.js
 * By above commands we are running the application in local server and to make your IP public run the below command.
+  
   > ssh -R chandu.serveo.net:80:localhost:3000 serveo.net
+  
+  **http://serveo.net/:** Expose local servers to the internet
   
 * If you success fully ran all the above commands click below link.
 [chandu.serveo.net](http://chandu.serveo.net/)
@@ -27,3 +30,14 @@ The API will return a random PDQ.com employee name with his or her favorite beer
 * **socket.io(Client-server communication):** Push it to all other connected clients.
 * **request:** Designed to be the simplest way possible to make http calls.
 * **cheerio:** Cheerio parses markup and provides an API for traversing/manipulating the resulting data structure.
+
+
+## References:
+
+* https://www.npmjs.com/package/cheerio
+* https://guides.github.com/features/mastering-markdown/
+* https://socket.io/get-started/chat/
+* https://www.pdq.com/about-us/
+* https://pdqemployees.azurewebsites.net/api/pdqemployees
+* https://expressjs.com/
+* http://serveo.net/
