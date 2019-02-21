@@ -11,6 +11,7 @@ The API will return a random PDQ.com employee name with his or her favorite beer
 * Clone this respository and go to the file directory **PDQAssessment**
 * Run below command.
    > npm install
+   
    > node index.js
 * By above commands we are running the application in local server and to make your IP public run the below command.
   
