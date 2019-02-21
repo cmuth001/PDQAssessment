@@ -22,7 +22,7 @@ The API will return a random PDQ.com employee name with his or her favorite beer
 
 ## Follwing Libraries used for this assessment:
 
-* ***express(Web framework): ** To creating a robust API is quick and easy.
+* ***express(Web framework):** To creating a robust API is quick and easy.
 * **http:** For client server communication and also used for route methods like 'get' in our application.
 * **socket.io(Client-server communication):** Push it to all other connected clients.
 * **request:** Designed to be the simplest way possible to make http calls.
