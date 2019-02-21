@@ -10,8 +10,8 @@ The API will return a random PDQ.com employee name with his or her favorite beer
 
 * Clone this respository and go to the file directory **PDQAssessment**
 * Run below command.
-  1. > npm install
-  2. > node index.js
+   > npm install
+   > node index.js
 * By above commands we are running the application in local server and to make your IP public run the below command.
   
   > ssh -R chandu.serveo.net:80:localhost:3000 serveo.net
