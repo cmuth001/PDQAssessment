@@ -1,3 +1,8 @@
 span{
     font-size: 20px;
 }
+#errorMsg{
+    display: none;
+    font-size: 24px;
+    color: red;
+}

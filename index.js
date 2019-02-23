@@ -1,4 +1,4 @@
-var Employee = require('./model/services.js');
+var Controller = require('./controller/controller.js');
 var express = require('express');
 var app = express();
 var http = require('http').Server(app);
@@ -12,9 +12,9 @@ app.get('/', function(req, res){
 
 io.on('connection', function(socket){
   socket.on('getEmployee', function(){
-    var empObj = new Employee();
-    empObj.getEmployeeImage(function(data){
-      io.emit('getEmployee', data);
+    var contObj = new Controller();
+    contObj.getEmployeeImage(function(response){
+        io.emit('getEmployee', response);
     });
     
   });
